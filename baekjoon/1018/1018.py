@@ -24,4 +24,5 @@ for a in range(n-7):
         if solution > min(cnt, 64-cnt):
           solution = min(cnt, 64-cnt)
 
+
 print(solution)
